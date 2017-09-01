@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "372193009609",
+    "firebase_url": "https://sellsrm-270d4.firebaseio.com",
+    "project_id": "sellsrm-270d4",
+    "storage_bucket": "sellsrm-270d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372193009609:android:56f879654b2c04d1",
+        "android_client_info": {
+          "package_name": "com.example.android.sellsrm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372193009609-as1ka4s7e6rppmkcs01bl1liq22kh6cd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.sellsrm",
+            "certificate_hash": "6b72818a02f6ff742849e4e6c28681871a2cf30f"
+          }
+        },
+        {
+          "client_id": "372193009609-c7sj7cft6e84v8k52s511bb1d1ovrpmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt-ws8i3pWzSBSOtf5mkP6ElUAAvxRbvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372193009609-c7sj7cft6e84v8k52s511bb1d1ovrpmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

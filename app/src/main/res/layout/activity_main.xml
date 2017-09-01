@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/login"
+    tools:context="com.example.android.sellsrm.MainActivity"
+    android:weightSum="1">
+
+   <TextView
+       android:background="@color/background"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Srm@SELL"
+       android:textSize="46sp"
+       android:id="@+id/tag"
+       android:fontFamily="sans-serif-typeface"
+       android:layout_centerHorizontal="true"
+       />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true">
+
+      <TextView
+          android:layout_gravity="center_horizontal"
+          android:background="@color/background"
+          android:textColorHighlight="@color/white"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="User Registration"
+          android:id="@+id/textViewUserReg"
+          android:layout_above="@+id/linearLayout"
+          android:textAlignment="center" />
+
+
+      <EditText
+          android:textColorHint="@color/cardview_dark_background"
+          android:hint="Enter Email"
+          android:background="@color/background"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:id="@+id/email"
+          android:layout_margin="15dp"/>
+
+      <EditText
+          android:textColorHint="@color/cardview_dark_background"
+          android:layout_margin="15dp"
+          android:background="@color/background"
+          android:hint="Enter Password"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:inputType="textPassword"
+          android:id="@+id/password"
+          />
+
+      <Button
+          style="@style/CustomStyleButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Register"
+          android:id="@+id/register"
+          android:layout_margin="15dp"
+          />
+      <TextView
+          android:background="@color/background"
+          android:layout_margin="15dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Already registered then sigin here"
+          android:id="@+id/viewsignin"
+          android:textSize="20sp"
+          android:textAlignment="center"/>
+
+
+
+
+   </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/home"
+    tools:context="com.example.android.sellsrm.homepageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:padding="16dp"
+            android:layout_marginBottom="10dp"
+            style="@style/CustomStyleButton"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:id="@+id/profileDisp"
+            android:padding="16dp"
+            android:layout_marginBottom="10dp"
+            style="@style/CustomStyleButton"/>
+
+        <Button
+            android:id="@+id/buyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Buy"
+            android:layout_marginBottom="10dp"
+            style="@style/CustomStyleButton"/>
+
+
+        <Button
+            android:padding="16dp"
+            android:id="@+id/sellButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sell"
+            android:layout_marginBottom="10dp"
+            style="@style/CustomStyleButton"/>
+
+        <Button
+            android:padding="16dp"
+            android:id="@+id/requestButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rquest Received"
+            android:layout_marginBottom="10dp"
+            style="@style/CustomStyleButton"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

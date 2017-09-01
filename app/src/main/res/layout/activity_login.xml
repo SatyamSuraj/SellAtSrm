@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:weightSum="1"
+    android:background="@drawable/login"
+    tools:context="com.example.android.sellsrm.login">
+
+    <TextView
+        android:background="@color/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Srm@SELL"
+        android:textSize="46sp"
+        android:id="@+id/tag"
+        android:fontFamily="sans-serif-typeface"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/linearLayout">
+
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:background="@color/background"
+            android:textColorHighlight="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="User Login"
+            android:id="@+id/textViewUserReg"
+            android:layout_above="@+id/linearLayout"
+            android:textAlignment="center" />
+
+
+        <EditText
+            android:textColorHint="@color/cardview_dark_background"
+            android:hint="Enter Email"
+            android:layout_width="match_parent"
+            android:background="@color/background"
+            android:layout_height="45dp"
+            android:id="@+id/email"
+            android:layout_margin="15dp"/>
+
+        <EditText
+            android:textColorHint="@color/cardview_dark_background"
+            android:layout_margin="15dp"
+            android:hint="Enter Password"
+            android:background="@color/background"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            style="@style/CustomStyleButton"
+            android:id="@+id/register"
+            android:layout_margin="15dp"
+            />
+        <TextView
+            android:textSize="20sp"
+            android:background="@color/background"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Not registered signup here!"
+            android:id="@+id/viewsignup"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

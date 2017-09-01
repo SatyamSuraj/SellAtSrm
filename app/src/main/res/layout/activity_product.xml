@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_product"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/login"
+
+    tools:context="com.example.android.sellsrm.product">
+
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/bookImg"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="26sp"
+        android:id="@+id/bName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Name"
+        android:padding="2dp"/>
+
+    <TextView
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:id="@+id/bDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Desp"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:textSize="26sp"
+        android:id="@+id/bPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="price" />
+    <TextView
+        android:textSize="26sp"
+        android:id="@+id/yr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        style="@style/CustomStyleButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/backButton"
+        android:text="Back"/>
+
+    <Button
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        style="@style/CustomStyleButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/buyButton"
+        android:text="Buy"/>
+
+    </LinearLayout>
+</LinearLayout>
